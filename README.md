@@ -24,7 +24,10 @@ Fake news detection is framed here as a binary text classification problem (Real
 | **BERT** | **0.8585** | **0.8523** | **0.8585** | **0.8510** | **0.8679** |
 | Hybrid BERT+LSTM | 0.8433 | 0.8351 | 0.8433 | 0.8336 | 0.8573 |
 
-**Key finding:** Standalone BERT outperformed both the LSTM baseline and the Hybrid BERT+LSTM model across every metric, suggesting that BERT's pre-trained contextual representations alone are more effective for this task than adding a sequential LSTM layer on top.
+**Key finding:** Standalone BERT outperformed both the LSTM baseline and the Hybrid BERT+LSTM model across every metric, suggesting that BERT's pre-trained contextual representations alone are more effective for this task than adding a sequential LSTM layer on top.  
+
+
+![Model Comparison](results/overall_performance_comparison.png)
 
 ## Project Structure
 
