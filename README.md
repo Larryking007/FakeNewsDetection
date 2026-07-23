@@ -14,7 +14,7 @@ Fake news detection is framed here as a binary text classification problem (Real
 
 ## Dataset
 
-[`mdepak/fakenewsnet`](https://www.kaggle.com/datasets/mdepak/fakenewsnet) on Kaggle — derived from the FakeNewsNet repository (Politifact and GossipCop sources), containing labeled real and fake news articles.
+[`fakenewsnet`](https://www.kaggle.com/datasets/mdepak/fakenewsnet) on Kaggle; derived from the FakeNewsNet repository (Politifact and GossipCop sources), containing labeled real and fake news articles.
 
 ## Results
 
@@ -28,43 +28,36 @@ Fake news detection is framed here as a binary text classification problem (Real
 
 ## Project Structure
 
-\```
-fake-news-detection-bert-lstm/
-├── notebooks/
-│   └── fake-news-detection-notebook.ipynb
-├── results/
-│   └── model_comparison_summary.png
-├── requirements.txt
-└── README.md
-\```
+FakeNewsDetection\
+├── notebooks\
+│   └── fake-news-detection-notebook.ipynb\
+├── results\
+│   └── model_comparison_summary.png\
+├── requirements.txt\
+└── README.md 
+
 
 ## Setup
 
-\```bash
-git clone https://github.com/<your-username>/fake-news-detection-bert-lstm.git
-cd fake-news-detection-bert-lstm
-pip install -r requirements.txt
-\```
+git clone https://github.com/Larryking007/FakeNewsDetection \
+cd FakeNewsDetection\
+pip install -r requirements.txt  
 
 ## Dataset Setup
 
-\```bash
-kaggle datasets download -d mdepak/fakenewsnet
-unzip fakenewsnet.zip -d data/
-\```
+kaggle datasets download -d mdepak/fakenewsnet\
+unzip fakenewsnet.zip -d data  
 
 ## Requirements
 
-torch>=1.9.0
-transformers>=4.0.0
-scikit-learn>=0.24.0
-pandas>=1.3.0
-numpy>=1.21.0
-matplotlib>=3.4.0
-seaborn>=0.11.0
-tqdm>=4.62.0
-
-
+torch>=1.9.0\
+transformers>=4.0.0\
+scikit-learn>=0.24.0\
+pandas>=1.3.0\
+numpy>=1.21.0\
+matplotlib>=3.4.0\
+seaborn>=0.11.0\
+tqdm>=4.62.0  
 ## Running the Notebook
 
 Open `notebooks/fake-news-detection-notebook.ipynb` in Jupyter, VS Code, Google Colab, or Kaggle Notebooks. It covers data preprocessing, model definitions (LSTM, BERT, Hybrid BERT+LSTM), training/validation, and comparative evaluation.
