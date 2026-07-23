@@ -55,7 +55,6 @@ unzip fakenewsnet.zip -d data/
 
 ## Requirements
 
-\```
 torch>=1.9.0
 transformers>=4.0.0
 scikit-learn>=0.24.0
@@ -64,7 +63,7 @@ numpy>=1.21.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
 tqdm>=4.62.0
-\```
+
 
 ## Running the Notebook
 
