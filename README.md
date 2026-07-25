@@ -50,17 +50,7 @@ pip install -r requirements.txt
 
 kaggle datasets download -d mdepak/fakenewsnet\
 unzip fakenewsnet.zip -d data  
-
-## Requirements
-
-torch>=1.9.0\
-transformers>=4.0.0\
-scikit-learn>=0.24.0\
-pandas>=1.3.0\
-numpy>=1.21.0\
-matplotlib>=3.4.0\
-seaborn>=0.11.0\
-tqdm>=4.62.0  
+ 
 ## Running the Notebook
 
 Open `notebooks/fake-news-detection-notebook.ipynb` in Jupyter, VS Code, Google Colab, or Kaggle Notebooks. It covers data preprocessing, model definitions (LSTM, BERT, Hybrid BERT+LSTM), training/validation, and comparative evaluation.
